@@ -1,0 +1,136 @@
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+button {
+  width: 150px;
+}
+
+.bg-blue {
+  height: 50%;
+  width: 40%;
+  right: 0;
+  top: 25%;
+  border-radius: 40% 0 0 40%;
+  z-index: -1;
+}
+
+.bg-blue-left {
+  height: 50%;
+  width: 40%;
+  left: -50px;
+  top: 25%;
+  border-radius: 0 40% 40% 0;
+  z-index: -1;
+}
+
+.img-fluid {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #5265E1;
+  color: white;
+}
+
+.accordion {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 500px;
+}
+
+.ciao {
+  padding-top: 100px;
+}
+
+.albero {
+  margin-top: 50px;
+  background-color: #FA5959;
+}
+
+.natale {
+  margin-top: 50px;
+  background-color: #5265E1;
+}
+
+.tavolo {
+  margin: 10px 0px 0px 50px;
+}
+
+.sedia {
+  margin: 100px 0px 0px 50px;
+}
+
+.foto {
+  background-color: #5265E1;
+  border-radius: 40% 0 0 40%;
+  margin-top: 100px;
+}
+
+.marinero {
+  width: 100px;
+}
+
+.puzzle {
+  background-color: #5265E1;
+  border-radius: 40% 0 0 40%;
+}
+
+.bottone {
+  margin-left: 70px;
+}
+
+.marco {
+  text-decoration: none;
+}
+
+.marco:hover {
+  font-weight: bold;
+  color: red;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.giulio:hover {
+  font-weight: bold;
+  color: red;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.giulio {
+  text-decoration: none;
+}
+
+.franco:hover {
+  font-weight: bold;
+  color: red;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+.franco {
+  text-decoration: none;
+}
+
+button#bookmarking-tab, button#profile-tab, button#contact-tab {
+  border-bottom: 1px solid #dee2e6 !important;
+  color: #343a40 !important;
+}
+
+button#bookmarking-tab:hover, button#profile-tab:hover, button#contact-tab:hover {
+  color: #FA5959 !important;
+  cursor: pointer;
+}
+
+button#bookmarking-tab.active, button#profile-tab.active, button#contact-tab.active {
+  color: #000;
+  border-bottom: 4px solid #FA5959 !important;
+}
+/*# sourceMappingURL=style.css.map */
